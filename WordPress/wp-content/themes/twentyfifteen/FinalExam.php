@@ -1,6 +1,6 @@
 <?php
 /*
- * Template:Final Exam
+  Template Name:Final Exam
  */
 ?>
 <body>
