@@ -89,6 +89,57 @@
 						</a>
 					</div>
 				</div>
+				<div id="idx-cont_fig01" style="height: 985px;">
+			<article>
+			<div class="idx-figCont">
+			<div class="figImg"><img src="images/idx_ti_fig01.png" width="36" height="14" alt="fig01"></div>
+			<div class="figTi">
+				<h2>なにもなくて豊かな島<br>
+				“カオハガン島”について</h2>
+			</div>
+			<div class="figCopy">フィリピン・セブ島から小船に乗ってすぐ近く。東京ドーム一杯分くらいの小さな島に、約600人ほどの島民がゆったりと暮らしています。</div>
+			<div class="figTxt"><span style="font-weight:bold">カオハガン島で、<br>
+			ほんとうのあなたにかえってほしい</span><br>
+			<br>
+			今から二十数年前、私は、南の海に浮かんでいた小さな島を買ってしまった。
+			
+			幼かったころから海が大好きで、その海の彼方にある国々、そこに暮らしている人々にいつも惹かれていた。
+			
+			そして、ほんとうに偶然に、夢のような美しい南の島に出会うことができ、そこで暮らすようになった。神の采配としか思えない、うれしい出会いだった。
+			
+			豊かな海洋の自然に包まれて、その恵みをいただき、必要以上の量を採らず、ゆったりと自然の時間に身を任せながら、その日を満ち足りて暮らす。
+			
+			そんな「何もなくて豊かな」日々を、島民たちと一緒になって過ごしてきた。
+			
+			そんな暮らしに、「今、私たちが学ぶことがたくさんある」と、最近になって強く思うようになっている。
+			
+			今までに、たくさんの方々がカオハガン島を訪れ、穏やかな風に吹かれて、ゆったりと楽しい日々を過ごしてくれた。
+			
+			あなたにも、ぜひカオハガンに来ていただいて、とにかく楽しんでいただき、そしてほんとうの自分を取り戻し、これからの暮らしについて考えてもらいたいのだ。
+			
+			島でお会いできるのを、心から楽しみにしています。<br>
+			<br>
+			島主崎山克彦
+			</div>
+			<!-- / .figTxt -->
+			<div class="brushLine"></div>
+			<div class="nav">
+				<ul>
+		             <li><a href="javascript:btmOpen('fig01','about.html')">カオハガン島の概要</a></li>
+		             <li><a href="javascript:btmOpen('fig01','history.html')">島の沿革</a></li>
+		             <li><a href="javascript:btmOpen('fig01','caohagan2050.html')" class="cnt">カオハガン2050</a></li>
+		             <li><a href="javascript:btmOpen('fig01','ngo.html')" class="cnt">NGO南の島から</a></li>
+		             <li><a href="javascript:btmOpen('fig01','sanctuary.html')" class="cnt">熱帯珊瑚礁保護区</a></li>
+		             <li><a href="javascript:btmOpen('fig01','islandmaster.html')" class="cnt">島主紹介</a></li>
+				</ul>
+			</div>
+			</div>
+			<!-- / .idx-figCont -->
+			</article>
+			<div class="idx-bkTop"><img src="images/idx_cnt_fig01_bk_t.png" width="339" height="443"></div>
+			<div class="idx-bkMid" style="height: 251px;"></div>
+			<div class="idx-bkBtm" style="top: 658px;"><img src="images/idx_cnt_fig01_bk_b.png" width="339" height="325"></div>
+			</div>
 		</div>
 		<footer >
 			<div id="foot-container" style="top: 3612px; background-image:url('../wp-content/themes/twentyfifteen/images/foot_bk.png')">

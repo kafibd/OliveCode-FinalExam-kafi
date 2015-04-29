@@ -1,0 +1,173 @@
+@CHARSET "ISO-8859-1";
+body {
+    margin: 0px;
+}
+#outer-cover {
+    position: relative;
+    height: 4302px;
+    width: 100%;
+/*  margin: 0px; */
+/*  top: 0px; */
+/*  left:0px; */
+/*  right:0px; */
+/*  bottom: 0px; */
+    background-position: center top;
+    background-image: url("../twentyfifteen/images/background.png");
+    background-repeat: repeat-y;
+/*     background-size: cover; */
+/*  border: 1px solid green; */
+}
+#centering-container {
+    width: 100%;
+    text-align: center;
+    height: 4302px;
+    position: absolute;
+/*     z-index: 150; */
+}
+
+#first-one {
+/*  margin-left: 170px; */
+    
+}
+#second-one {
+	position: absolute;
+	margin-left: 446px;
+	top: 1290px;
+	left: 70px;
+}
+#third-one {
+	position: absolute;
+	margin-left: 50%;
+	top: 3150px;
+	left: -850px;
+	z-index: 150;
+}
+/*all circle*/
+#circle {
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all-circle {
+    border-radius: 50%; 
+    
+/*  width: 300px; height: 300px;  */
+    overflow: hidden; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 20px; 
+    box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 20px; 
+/*  position: absolute; left: 150px; top: 3000px;  */
+    background-color: rgb(255, 255, 255);
+    z-index: 2500;
+}
+/*end of circle*/
+#site-header {
+    width: 930px;
+    height: 481px;
+}
+#inner-cover {
+    position: absolute;
+    top: 0px;
+    width: 930px;
+    height: auto;
+/*     border: 1px solid red;    */
+}
+ #inner-cover, h1 {
+    margin-left: 120px;
+    margin-top: 0px;
+}
+#site-header img {
+    margin-left: 40px;
+}
+#news01 {
+    position: absolute;
+    top: 390px;
+    left: 540px;
+}
+#news02 {
+    position: absolute;
+    top: 330px;
+    left: 770px;
+}
+.news {
+/*  position: absolute; */
+    z-index: 500;
+/*   width: 930px; */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  overflow: hidden;
+  -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+  background-color: #f0ff00;
+}
+.news dl {
+  margin: 0 20px 0 20px;
+}
+.news dl dt {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news dl dd {
+  text-align: left;
+  margin-left: 0px;
+/*   line-height: .6em; */
+  font-size: 12px;
+}
+.news img {
+  margin-top: 20px;
+  margin-left: 75px;
+}
+h1 {
+/*  transform: rotate(-5deg); */
+}
+#foot-container {
+  width: 930px;
+/*   min-width: 930px; */
+  height: 690px;
+  text-align: left;
+  position: absolute;
+/*   left: 50%; */
+/*   margin-left: -465px; */
+  //
+/*   background-image: url("../twentyfifteen/images/foot_bk.png"); */
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+/*   height: 690px; */
+  left: 0px;
+  z-index: 100;
+}
+ #copyright {
+  position: absolute;
+  left: 50%;
+  margin-left: -140px;
+  top: 562px;
+}
+#logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -172px;
+  top: 385px;
+}
+#tree {
+  position: absolute;
+  top: 50px;
+  left: 900px;
+}
+#bird2 {
+  position: absolute;
+  top: 420px;
+  left: 920px;
+}
+#bird1 {
+  position: absolute;
+  top: 250px;
+  left: 380px;
+}
