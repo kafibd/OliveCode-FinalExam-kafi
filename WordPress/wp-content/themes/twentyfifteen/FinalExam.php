@@ -73,28 +73,28 @@
 			<div class="all-circle" style="width: 220px; height: 220px; position: absolute; left: 600px; top: 750px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo3.jpg" style = "height: 220px; margin-left: -44.4943820224719px;">
 			</div><!-- 3 -->
-			<div class="all-circle" style="width: 190px; height: 190px; position: absolute; left: 150px; top: 850px;">
+			<div class="all-circle" style="width: 190px; height: 190px; position: absolute; left: 360px; top: 850px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo4.jpg" style="width: 190px; margin-top: -38.57px;">
 			</div><!-- 4 -->
 			<div class="all-circle" style="width: 240px; height: 240px; position: absolute; left: 560px; top: 1050px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo5.jpg" style="height: 240px; margin-left: -60.1801801801802px;">
 			</div><!-- 5 -->
-			<div class="all-circle" style="width: 230px; height: 230px; position: absolute; left: 30px; top: 1950px;">
+			<div class="all-circle" style="width: 230px; height: 230px; position: absolute; left: 240px; top: 1950px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo6.jpg" style="height: 230px; margin-left: -57.6726726726727px;">
 			</div><!-- 6 -->
-			<div class="all-circle" style="width: 200px; height: 200px; position: absolute; left: 300px; top: 2100px;">
+			<div class="all-circle" style="width: 200px; height: 200px; position: absolute; left: 510px; top: 2100px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo7.jpg" style="width: 200px; margin-top: -40.2px;">
 			</div><!-- 7 -->
-			<div class="all-circle" style="width: 220px; height: 220px; position: absolute; left: 600px; top: 2150px;">
+			<div class="all-circle" style="width: 220px; height: 220px; position: absolute; left: 810px; top: 2550px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo8.jpg" style="width: 220px; margin-top: -54.56px;">
 			</div><!-- 8 -->
-			<div class="all-circle" style="width: 190px; height: 190px; position: absolute; left: 780px; top: 2700px;">
+			<div class="all-circle" style="width: 190px; height: 190px; position: absolute; left: 990px; top: 2700px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo9.jpg" style="height: 190px; margin-left: -47.2155688622755px;">
 			</div><!-- 9 -->
-			<div class="all-circle" style="width: 300px; height: 300px; position: absolute; left: 150px; top: 3000px;">
+			<div class="all-circle" style="width: 300px; height: 300px; position: absolute; left: 360px; top: 3000px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo10.jpg" style="width: 300px; margin-top: -50.1px;">
 			</div><!-- 10 -->
-			<div class="all-circle" style="width: 200px; height: 200px; position: absolute; left: 290px; top: 3300px;">
+			<div class="all-circle" style="width: 200px; height: 200px; position: absolute; left: 490px; top: 3300px;">
 				<img src="../wp-content/themes/twentyfifteen/photo/bln_photo11.jpg" style="width: 200px; margin-top: -33.4px;">
 			</div><!-- 11 -->
 		</div>
