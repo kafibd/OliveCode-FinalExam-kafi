@@ -5,7 +5,9 @@
 ?>
 <head>
 	<title>Final exam of OliveCode</title>
+<!-- 	<link rel="stylesheet" type="text/css" href="../wp-content/themes/twentyfifteen/main-design-responsive.css"> -->
 	<link rel="stylesheet" type="text/css" href="../wp-content/themes/twentyfifteen/main-design.css">
+	
 	<script type="text/javascript" src="/jquery-1.3.2.js"></script>
 </head>
 <script type="text/javascript">
@@ -55,6 +57,7 @@
 		<div id="centering-container">
 			<div id="first-one">
 				<img src="../wp-content/themes/twentyfifteen/images/idx-bkphoto1.png" width="988" height="680" />
+<!-- 				<img src="../wp-content/themes/twentyfifteen/images/idx-bkphoto1.png" /> -->
 			</div>
 			<div id="second-one">
 				<img src="../wp-content/themes/twentyfifteen/images/idx-bkphoto2.png" width="836" height="689" />
@@ -62,7 +65,7 @@
 			<div id="third-one">
 				<img src="../wp-content/themes/twentyfifteen/images/idx-bkphoto3.png" width="719" height="542" />
 			</div>			
-		</div>
+		</div> 
 		<div id="circle">
 <!-- 			left: 50px; top: 300px; -->
 			<div class="all-circle" style="width: 250px; height: 250px; position: absolute; left: 260px;top: 300px;">
