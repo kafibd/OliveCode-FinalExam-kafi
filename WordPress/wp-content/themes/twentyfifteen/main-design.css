@@ -13,7 +13,7 @@ body {
 /*  right:0px; */
 /*  bottom: 0px; */
     background-position: center top;
-    background-image: url("../twentyfifteen/images/background.png");
+    background-image: url("/caohagan/images/background.png");
     background-repeat: repeat-y;
 /*     background-size: cover; */
 /*  border: 1px solid green; */
@@ -22,7 +22,8 @@ body {
     width: 100%;
     text-align: center;
     height: 4302px;
-    position: absolute;
+/*     position: absolute; */
+    position: relative;
     overflow: hidden;
 /*     z-index: 150; */
 }
@@ -60,7 +61,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 20px; 
 /*  position: absolute; left: 150px; top: 3000px;  */
     background-color: rgb(255, 255, 255);
-    z-index: 2500;
+    z-index: 250;
 }
 /*end of circle*/
 #site-header {
@@ -92,21 +93,21 @@ body {
     left: 770px;
 }
 .news {
-/*  position: absolute; */
-    z-index: 500;
-/*   width: 930px; */
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  width: 170px;
-  height: 170px;
-  overflow: hidden;
-  -moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-  -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
-  background-color: #f0ff00;
+	/*  position: absolute; */
+	  z-index: 500;
+	/*   width: 930px; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	width: 170px;
+	height: 170px;
+	overflow: hidden;
+	-moz-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	background-color: #f0ff00;
 }
 .news dl {
   margin: 0 20px 0 20px;
@@ -143,7 +144,7 @@ h1 {
   padding: 0px;
 }
 #idx-cont_fig01 .idx-bkMid {
-  background-image: url(../twentyfifteen/images/idx_cnt_fig01_bk_m.png);
+  background-image: url(/caohagan/images/idx_cnt_fig01_bk_m.png);
   margin: 0px;
   padding: 0px;
 }
@@ -201,7 +202,7 @@ h1 {
 .brushLine {
   width: 100%;
   height: 2px;
-  background-image: url(../twentyfifteen/images/tmp_brushline.png);
+  background-image: url(/caohagan/images/tmp_brushline.png);
   background-position: center;
 }
 .idx-figCont .nav ul {
@@ -211,7 +212,7 @@ h1 {
 }
 .idx-figCont .nav ul li {
   display: block;
-  background-image: url(../twentyfifteen/images/tmp_arrow-a.png);
+  background-image: url(/caohagan/images/tmp_arrow-a.png);
   background-repeat: no-repeat;
   height: 18px;
   float: left;
@@ -245,12 +246,174 @@ h1 {
 }
 #idx-cont_fig02 .idx-bkMid {
   height: 46px;
-  background-image: url(../twentyfifteen/images/idx_cnt_fig02_bk_m.png);
+  background-image: url(/caohagan/images/idx_cnt_fig02_bk_m.png);
 }
 #idx-cont_fig02 .idx-bkBtm {
 	top: 256px;
 }
+/*fig.03*/
+#idx-cont_fig03{
+    width:396px;
+    position:absolute;
+    top:1900px;
+    left:580px;
+}
 
+#idx-cont_fig03 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig03 .idx-bkMid{
+    background-image:url(/caohagan/images/idx_cnt_fig03_bk_m.png);
+}
+
+#idx-cont_fig03 .idx-bkBtm{
+}
+
+#idx-cont_fig03 .idx-figCont{
+    position:absolute;
+    width:333px;
+    left:0px;
+}
+
+/* fig 04 */
+
+#idx-cont_fig04{
+    width:545px;
+    position:absolute;
+    top:2300px;
+    left:10px;
+}
+
+#idx-cont_fig04 .idx-figCont{
+    padding-top:65px;
+    padding-bottom:165px;
+}
+
+#idx-cont_fig04 .figTi{
+    color:#000;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig04 .figCopy{
+    color:#000;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig04 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig04 .idx-bkMid{
+    background-image:url(/caohagan/images/idx_cnt_fig04_bk_m.png);
+}
+
+#idx-cont_fig04 .idx-bkBtm{
+}
+
+#idx-cont_fig04 .idx-figCont{
+    position:absolute;
+    width:485px;
+    left:0px;
+}
+
+
+
+/* fig 05 */
+
+#idx-cont_fig05{
+    width:395px;
+    position:absolute;
+    top:3000px;
+    left:580px;
+}
+
+#idx-cont_fig05 .idx-bkTop{
+    line-height: 0px;
+}
+
+#idx-cont_fig05 .idx-bkMid{
+    background-image:url(/caohagan/images/idx_cnt_fig05_bk_m.png);
+}
+
+#idx-cont_fig05 .idx-bkBtm{
+}
+
+#idx-cont_fig05 .idx-figCont{
+    position:absolute;
+    left:0px;
+}
+
+#idx-cont_fig05 .figTi{
+    color:#FFF;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig05 .figTitle{
+    color:#FFF;
+    font-size:131%;
+    margin-bottom:30px;
+    text-align:left;
+    line-height:1.2em;
+    
+}
+
+#idx-cont_fig05 .figDate{
+    color:#FFF;
+    margin-bottom:5px;
+    text-align:left;
+    letter-spacing:0.2em;
+}
+
+#idx-cont_fig05 .figCopy{
+    color:#FFF;
+    margin-bottom:30px;
+}
+
+#idx-cont_fig05 .figTxt{
+    color:#FFF;
+    font-size: 13px;
+}
+
+#idx-cont_fig05 .nav{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+#idx-cont_fig05 ul li{
+    width:300px;
+    color:#FFF;
+    background-image:url(/caohagan/images/idx_arrow_wb.png);
+    background-position:38%;
+    display:block;
+}
+
+#idx-cont_fig05 .nav a{
+    color:#fff;
+    font-style:normal;
+    text-decoration:
+}
+#idx-cont_fig05 .nav a:link {
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:visited {
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:hover {
+    color:#ddd;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:active {
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+/*End of all fig*/
 #foot-container {
   width: 930px;
 /*   min-width: 930px; */

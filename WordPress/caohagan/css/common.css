@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===================================================================
+fonts
+ 10px = 77%     11px = 85%     12px = 93%     13px = 100%
+ 14px = 108%    15px = 116%    16px = 123.1%  17px = 131%
+ 18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+ 22px = 167%    23px = 174%    24px = 182%    25px = 189%
+ 26px = 197%
+=================================================================== */
+
+
+html body {
+	font-size:13px;
+	font-family: 'Kozuka Mincho Pro', 'Kozuka Mincho Std', '小塚明朝 Pro R', '小塚明朝 Std R' , 'Hiragino Mincho Pro', 'ヒラギノ明朝 Pro W3','HGS明朝E','ＭＳ Ｐ明朝','MS PMincho',  Georgia, Times, Baskerville, Palatino, serif;
+	text-align:center;
+	min-width:930px;
+    width:100%;
+}
+
+body.noscroll {
+  position: fixed;
+  overflow-y: scroll;
+}
+
+
+a{/*リンクされた文字*/
+    color:#c00;
+    font-style:normal;
+    text-decoration:
+}
+a:link {/*未訪問のリンク*/
+    color:#c00;
+    font-style:normal;
+    text-decoration:none;
+}
+a:visited {/*訪問後のリンク*/
+    color:#C00;
+    font-style:normal;
+    text-decoration:none;
+}
+a:hover {/*マウスをのせたとき*/
+    color:#F90;
+    font-style:normal;
+    text-decoration:none;
+}
+a:active {/*クリック中*/
+    color:#C00;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+
+
+#btmNavi a  , .nav a{/*リンクされた文字*/
+    color:#000000;
+    font-style:normal;
+    text-decoration:none;
+}
+#btmNavi a  , .nav a:link {/*未訪問のリンク*/
+    color:#000000;
+    font-style:normal;
+    text-decoration:none;
+}
+#btmNavi a  , .nav a:visited {/*訪問後のリンク*/
+    color:#000000;
+    font-style:normal;
+    text-decoration:none;
+}
+#btmNavi a  , .nav a:hover {/*マウスをのせたとき*/
+    color:#888888;
+    font-style:normal;
+    text-decoration:none;
+}
+#btmNavi a  , .nav a:active {/*クリック中*/
+    color:#000000;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+#wrapper-outer{
+	width:100%;
+	height:100%;
+	position:relative;
+	background-image:url(../images/background.png);
+	background-repeat:repeat-y;
+	background-position:center top;
+}
+
+
+#wrapper-inner{
+	left:50%;
+	margin-left:-465px;
+	width:930px;
+	position:absolute;
+	height:auto;
+	
+	z-index:200;
+}
+
+
+
+.clearfix:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    font-size:0;	
+    clear: both; 
+	visibility:hidden;
+}
+.clearfix{
+	display: inline-block;
+} 
+/* Hides from IE Mac */
+* html .clearfix{
+	height: 1%;
+}
+.clearfix{
+	display:block;
+}
+/* End Hack */ 
+
+
+
+
+/* 01 HEAD
+-------------------------------------------------------------------*/
+
+#sitehead{
+}
+
+
+/* 02 FOOT
+-------------------------------------------------------------------*/
+#footer{
+	background-image:url(../images/foot_bk.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	
+	width:100%;
+	height:690px;
+	
+	left:0px;
+	
+	position:absolute;
+	
+	z-index:100;
+}
+
+#footObj{
+	width:930px;
+	min-width:930px;
+	height:690px;
+	
+	text-align:left;
+	
+	position:absolute;
+	
+	left:50%;
+	margin-left:-465px;
+}
+
+#footObj #bird1{
+	position:absolute;
+	top:250px;
+	left:170px;
+}
+
+#footObj #bird2{
+	position:absolute;
+	top:420px;
+	left:730px;
+}
+
+#footObj #tree{
+	position:absolute;
+	top:50px;
+	left:700px;
+}
+
+#footObj #logo{
+	position:absolute;
+	left:50%;
+	margin-left:-172px;
+	top:385px;
+}
+
+#footObj #copyright{
+	position:absolute;
+	left:50%;
+	margin-left:-140px;
+	top:562px;
+}
+
+
+/* 03 BALLOON
+-------------------------------------------------------------------*/
+
+#bln{
+    position:relative;
+	z-index:500;
+    width:930px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* 04 NEWS
+-------------------------------------------------------------------*/
+
+#news1{
+	position:absolute;
+	top:390px;
+	left:450px;
+}
+
+#news2{
+	position:absolute;
+	top:330px;
+	left:680px;
+}
+
+
+.news{
+	z-index:500;
+    width:930px;
+    margin-left:auto;
+    margin-right:auto;
+	
+	border-radius:50%;
+	-webkit-border-radius:50%;
+    -moz-border-radius:50%;
+	width:170px;
+	height:170px;
+	overflow:hidden;
+	-moz-box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+   	-webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+   	box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+    background-color:#f0ff00;
+}
+
+.news H4{
+	margin:20px;
+	font-weight:bold;
+}
+
+.news dl{
+	margin:0 20px 0 20px;
+}
+
+.news dl dt{
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+
+.news dl dd{
+	text-align:left;
+	line-height:1.3em;
+}
+
+.news img{
+	margin-top:20px;
+}
+
+.news a{/*リンクされた文字*/
+    color:#000;
+    font-style:normal;
+    text-decoration:
+}
+.news .article a:link {/*未訪問のリンク*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:visited {/*訪問後のリンク*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:hover {/*マウスをのせたとき*/
+    color:#933;
+    font-style:normal;
+    text-decoration:none;
+}
+.news .article a:active {/*クリック中*/
+    color:#000;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+/* 04 CONTENTS
+-------------------------------------------------------------------*/
+#cntWrap{
+    position:fixed;
+    top:0px;
+    width:100%;
+    min-height:100%;
+	background-image:url(../images/cnt_bk.png);
+    z-index:600;
+	left:0px;
+}
+
+#btmWrap{
+    overflow:auto;
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#closeBt{
+    position:fixed;
+    margin-left:100%;
+    left:-100px;
+}
+
+
+#btmInnerWrap{
+	text-align:left;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+#figNumber{
+	margin-bottom:15px;
+}
+
+#figTi{
+	font-size:35px;
+	letter-spacing:0.1em;
+	line-height:1.2em;
+}
+
+#btmNavi{
+    margin-bottom:120px;
+}
+
+#btmNavi ul{
+	list-style:none;
+	margin:20px 0 0 0;
+}
+
+#btmNavi ul li{
+	display:block;
+	float:left;
+	margin:0px 20px 0 0;
+	padding:6px;
+	font-weight:bold;
+	font-size:108%;
+}
+
+#btmNavi .current{
+	background-color:#FF0;
+}
+
+#btmArticle{
+    width:800px;
+}
+
+#btmArticle h3{
+    font-size:138.5%;
+    letter-spacing:0.1em;
+    line-height:1.4em;
+    font-weight:600;
+    margin-bottom:50px;
+	margin-top:100px;
+}
+
+#btmArticle p{
+    font-size:108%;
+    letter-spacing:0.05em;
+    line-height:180%;
+    text-align:justify;
+}
+
+
+
+//----------------img shadow
+.shadow01{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    display:block;
+}
+
+//----------------画像回り込み
+.img-left,
+.img-right {
+   overflow: hidden;
+   height: auto;
+}
+ 
+.img-left img {
+   float: left;
+   margin: 8px 15px 0 0 !important;
+   padding: 0 !important;
+   border: 0 !important;
+}
+ 
+.img-right img {
+   float: right;
+   margin: 0 0 0 15px !important;
+   padding: 0 !important;
+   border: 0 !important;
+}
+ 
+.img-left p,
+.img-right p {
+   overflow: hidden;
+   height: auto;
+}
+
+
+
+/* 05 CONTENTS
+-------------------------------------------------------------------*/
+
+#newsWrap{
+    overflow:auto;
+	width:850px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#newsInnerWrap{
+	text-align:left;
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+#newsArticle{
+    width:800px;
+}
+
+#newsArticle h3{
+    font-size:138.5%;
+    letter-spacing:0.1em;
+    line-height:1.4em;
+    font-weight:600;
+    margin-bottom:50px;
+	margin-top:100px;
+}
+
+#newsArticle p{
+    font-size:108%;
+    letter-spacing:0.05em;
+    line-height:180%;
+    text-align:justify;
+}

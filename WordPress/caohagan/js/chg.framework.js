@@ -17,20 +17,23 @@
         //$("#cntWrap").animate({"opacity":"1"},500);
         
         
-        var baseAddr =  d;
+        var baseAddr =  'caohagan/' + d; /*Customized to work the things here*/
 		var targetUrl =  baseAddr + '/' + f;
 		$.ajax({
 			   type: 'GET',
 			   url: targetUrl,
 			   dataType: 'html',
 			   success: function(data) {
+//				   alert(data);
 				   $('#cntWrap').append(data);
-                   
+//                   var path = "";
                    $('#btmWrap img').each(function(){
+					   path = "";
                        var obj = $(this);
                        var prop = obj.attr('src');
-					   var path = prop.replace('images/',baseAddr+'/images/');
-					   
+//                       alert(prop);
+					   path = prop.replace('images/',baseAddr+'/images/');
+//					   alert (prop);
 					   $(obj).attr('src',path);
                    });
                    

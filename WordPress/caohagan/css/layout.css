@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===================================================================
+fonts
+ 10px = 77%     11px = 85%     12px = 93%     13px = 100%
+ 14px = 108%    15px = 116%    16px = 123.1%  17px = 131%
+ 18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+ 22px = 167%    23px = 174%    24px = 182%    25px = 189%
+ 26px = 197%
+=================================================================== */
+
+
+
+
+/* 01 INDEX
+-------------------------------------------------------------------*/
+
+
+/* 背景写真 */
+
+#bkObj{
+	width:100%;
+	text-align:center;
+	position:absolute;
+	overflow:hidden;
+	left:0px;
+	
+	z-index:200;
+}
+
+#bkObj #bkPhoto1{
+}
+
+#bkObj #bkPhoto2{
+	position:absolute;
+	margin-left:50%;
+	top:1290px;
+	left:70px;
+}
+
+#bkObj #bkPhoto3{
+	position:absolute;
+	margin-left:50%;
+	top:3150px;
+	left:-850px;
+}
+
+
+/* fig共通 */
+
+
+.idx-figCont{
+	padding:28px 30px 36px 30px; /*fig 余白調整*/
+}
+
+.figImg{
+	margin-bottom:10px;
+}
+
+.figTi{
+	font-size:167%;
+	line-height:1.2em;
+	color:#FFF;	
+	margin-bottom:20px;
+}
+
+.figCopy{
+	font-size:123.1%;
+	line-height:1.3em;
+	color:#FFF;
+	font-weight:bold;
+	margin-bottom:74px;
+}
+
+.figTxt{
+	font-size:100%;
+	letter-spacing:0.05em;
+	line-height:1.8em;
+	text-align:justify;
+	margin:0 0 20px 0;
+}
+
+.brushLine{
+	width:100%;
+	height:2px;
+	background-image:url(../images/tmp_brushline.png);
+	background-position:center;
+}
+
+.idx-figCont .nav{
+}
+
+.idx-figCont .nav ul{
+	list-style:none;
+	margin:20px 0 0 0;
+	width:100%;
+}
+
+.idx-figCont .nav ul li{
+	display:block;
+	background-image:url(../images/tmp_arrow-a.png);
+	background-repeat:no-repeat;
+	height:18px;
+	float:left;
+	padding:3px 0 0 25px;
+	margin:0px 9px 10px 0;
+	font-weight:bold;
+	font-size:108%;
+	letter-spacing:0;
+}
+
+
+/* fig 01 */
+
+#idx-cont_fig01{
+	width:339px;
+	position:absolute;
+	top:570px;
+	left:600px;
+}
+
+#idx-cont_fig01 .idx-bkTop{
+	line-height: 0px;
+	margin:0px;
+	padding:0px;
+}
+
+#idx-cont_fig01 .idx-bkMid{
+	background-image:url(../images/idx_cnt_fig01_bk_m.png);
+	margin:0px;
+	padding:0px;
+}
+
+#idx-cont_fig01 .idx-bkBtm{
+	margin:0px;
+	padding:0px;
+}
+
+#idx-cont_fig01 .idx-figCont{
+	position:absolute;
+	width:279px;
+	left:0px;
+}
+
+/* fig 02 */
+
+#idx-cont_fig02{
+	width:513px;
+	position:absolute;
+	top:1266px;
+	left:0px;
+}
+
+#idx-cont_fig02 .idx-bkTop{
+	line-height: 0px;
+}
+
+#idx-cont_fig02 .idx-bkMid{
+	background-image:url(../images/idx_cnt_fig02_bk_m.png);
+}
+
+#idx-cont_fig02 .idx-bkBtm{
+}
+
+#idx-cont_fig02 .idx-figCont{
+	position:absolute;
+	width:453px;
+	left:0px;
+}
+
+/* fig 03 */
+
+#idx-cont_fig03{
+	width:396px;
+	position:absolute;
+	top:1900px;
+	left:580px;
+}
+
+#idx-cont_fig03 .idx-bkTop{
+	line-height: 0px;
+}
+
+#idx-cont_fig03 .idx-bkMid{
+	background-image:url(../images/idx_cnt_fig03_bk_m.png);
+}
+
+#idx-cont_fig03 .idx-bkBtm{
+}
+
+#idx-cont_fig03 .idx-figCont{
+	position:absolute;
+	width:333px;
+	left:0px;
+}
+
+/* fig 04 */
+
+#idx-cont_fig04{
+	width:545px;
+	position:absolute;
+	top:2300px;
+	left:10px;
+}
+
+#idx-cont_fig04 .idx-figCont{
+	padding-top:65px;
+	padding-bottom:165px;
+}
+
+#idx-cont_fig04 .figTi{
+	color:#000;
+	margin-bottom:30px;
+}
+
+#idx-cont_fig04 .figCopy{
+	color:#000;
+	margin-bottom:30px;
+}
+
+#idx-cont_fig04 .idx-bkTop{
+	line-height: 0px;
+}
+
+#idx-cont_fig04 .idx-bkMid{
+	background-image:url(../images/idx_cnt_fig04_bk_m.png);
+}
+
+#idx-cont_fig04 .idx-bkBtm{
+}
+
+#idx-cont_fig04 .idx-figCont{
+	position:absolute;
+	width:485px;
+	left:0px;
+}
+
+
+
+/* fig 05 */
+
+#idx-cont_fig05{
+	width:395px;
+	position:absolute;
+	top:3000px;
+	left:500px;
+}
+
+#idx-cont_fig05 .idx-bkTop{
+	line-height: 0px;
+}
+
+#idx-cont_fig05 .idx-bkMid{
+	background-image:url(../images/idx_cnt_fig05_bk_m.png);
+}
+
+#idx-cont_fig05 .idx-bkBtm{
+}
+
+#idx-cont_fig05 .idx-figCont{
+	position:absolute;
+	left:0px;
+}
+
+#idx-cont_fig05 .figTi{
+	color:#FFF;
+	margin-bottom:30px;
+}
+
+#idx-cont_fig05 .figTitle{
+	color:#FFF;
+	font-size:131%;
+	margin-bottom:30px;
+	text-align:left;
+	line-height:1.2em;
+	
+}
+
+#idx-cont_fig05 .figDate{
+	color:#FFF;
+	margin-bottom:5px;
+	text-align:left;
+	letter-spacing:0.2em;
+}
+
+#idx-cont_fig05 .figCopy{
+	color:#FFF;
+	margin-bottom:30px;
+}
+
+#idx-cont_fig05 .figTxt{
+	color:#FFF;
+}
+
+#idx-cont_fig05 .nav{
+	text-align:center;
+	margin-bottom:70px;
+}
+
+#idx-cont_fig05 ul li{
+	width:300px;
+	color:#FFF;
+	background-image:url(../images/idx_arrow_wb.png);
+	background-position:38%;
+	display:block;
+}
+
+#idx-cont_fig05 .nav a{/*リンクされた文字*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:
+}
+#idx-cont_fig05 .nav a:link {/*未訪問のリンク*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:visited {/*訪問後のリンク*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:hover {/*マウスをのせたとき*/
+    color:#ddd;
+    font-style:normal;
+    text-decoration:none;
+}
+#idx-cont_fig05 .nav a:active {/*クリック中*/
+    color:#fff;
+    font-style:normal;
+    text-decoration:none;
+}
+
+
+/* 02 fig01
+-------------------------------------------------------------------*/
+
+/* history */
+
+.history{
+	margin-bottom:20px;
+	line-height:1.5em;
+	letter-spacing:0.2em;
+}
+
+.history dt{
+	font-weight:bold;
+	float:left;
+	width:12em;
+	padding-bottom:13px;
+	padding-top:13px;
+}
+
+.history dd{
+	padding-bottom:13px;
+	padding-top:13px;
+	padding-left:12em;
+	
+	border-bottom: dotted 1px #555555;
+}
+
+.history dd:last-child{
+	border:none;
+}
+
+
+/* caohagan2050 */
+
+
+.pdfBt{
+	font-size:108%;
+    letter-spacing:0.2em;
+    line-height:100%;
+	font-weight:bold;
+}
+
+.pdfBt img{
+	margin-bottom:-8px;
+}
+
+
+/* islandmaster */
+.islandMasterBookTi{
+	font-weight:bold;
+	font-size:108%;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	display:block;
+	width:100%;
+	border-bottom: dotted 1px #555555;
+}
+
+/* ngo */
+dl.listNgo{
+	margin-bottom:5px;
+	line-height:1.5em;
+	letter-spacing:0.2em;
+}
+
+dl.listNgo dt{
+	float:left;
+	width:1.5em;
+	padding-bottom:5px;
+}
+
+dl.listNgo dd{
+	padding-bottom:13px;
+	padding-left:1.5em
+}
+
+
+/* 03 fig02
+-------------------------------------------------------------------*/
+
+/* activity */
+
+.activity{
+	width:100%;
+	margin-bottom:50px;
+}
+
+
+/* 04 fig03
+-------------------------------------------------------------------*/
+
+/* caohagan house */
+.caohaganHouse{
+	border: dotted 1px #555555;
+	width:250px;
+	height:100%;
+	margin-right:13px;
+	margin-bottom:20px;
+	float:left;
+}
+
+.caohaganHouse p{
+	padding:0 5px 5px 5px;
+}
+
+#chgTop{
+	height:400px;
+}
+
+#chgBottom{
+	height:420px;
+}
+
+/* expenses */
+
+.expTable{
+	margin-bottom:50px;
+	width:100%;
+}
+
+.expTable td{
+	border:1px solid #888;
+	padding:10px;
+	vertical-align:middle;
+	font-size:93%;
+}
+
+/* Q&A */
+#qa p{
+	margin-bottom:40px;
+}
+
+
+/* One day tour */
+#tourpanf{
+	margin-top:50px;
+	font-size:93%;
+	width:450px;
+	margin-bottom:300px;
+}
+
+
+
+#tourpanf .L{
+	float:left;
+	width:200px;
+}
+
+#tourpanf .R{
+	float:right;
+	width:200px;
+}
+
+
+/* 05 fig04
+-------------------------------------------------------------------*/
+/* about */
+
+#quiltProf{
+	padding-top:20px;
+	margin-top:50px;
+	
+	border-top: dotted 1px #555555;
+}
+
+/* quiltgarden */
+#storeInfo{
+	padding-top:20px;
+	margin-top:20px;
+	
+	border-top: dotted 1px #555555;
+	
+}
+
+/* gallery */
+.galleryItem{
+	width:240px;
+	margin-right:25px;
+	float:left;
+	height:450px;
+	font-size:85%;
+}
+
+
+/* 05 fig05
+-------------------------------------------------------------------*/
+/* COLUM */
+
+#columDate{
+	font-size:100%;
+	margin-top:50px;
+	margin-bottom:-95px;
+}
+
+#columBody{
+	font-size:123.1%;
+}
+
+#columNav{
+	font-size:104%;
+	text-align:center;
+	width:800px;
+	height:50px;
+	margin-top:50px;
+}
+
+#columNav #L{
+	width:390px;
+	float:left;
+	text-align:right;
+}
+
+#columNav #R{
+	width:390px;
+	float:right;
+	text-align:left;
+}
+
+.columList {
+	font-size:100%;
+}
+
+.columList li{
+	line-height:1.5em;
+	margin-bottom:1em;
+}
+
+.dc {
+	list-style-type:decimal;
+}
+
+.ita{
+	font-style:italic;
+}

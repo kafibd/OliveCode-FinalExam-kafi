@@ -1,17 +1,7 @@
 @CHARSET "ISO-8859-1";
 
 /* fluid design*/
-@media screen and (max-width: 980px){
-	
-	#outer-cover, #foot-container, #centering-container {
-	   width: 980px;
-	}
-	#circle, #inner-cover, #site-header {
-/*        width: 930px; */
-        width: 0.7265625%;  /*930/1280=result*/
-    }
-}
-/**********************/
+
 body {
     margin: 0px;
 }
@@ -26,7 +16,8 @@ body {
 /*  border: 1px solid green; */
 }
 #centering-container {
-/*     width: 100%; */
+    width: 100%;
+    min-width: 990px;
     text-align: center;
     height: 4302px;
     position: absolute;
