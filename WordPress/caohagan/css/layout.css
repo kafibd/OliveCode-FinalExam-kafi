@@ -26,7 +26,6 @@ fonts
 	position:absolute;
 	overflow:hidden;
 	left:0px;
-	
 	z-index:200;
 }
 
@@ -119,6 +118,7 @@ fonts
 	position:absolute;
 	top:570px;
 	left:600px;
+	height: auto !important;
 }
 
 #idx-cont_fig01 .idx-bkTop{
@@ -129,8 +129,9 @@ fonts
 
 #idx-cont_fig01 .idx-bkMid{
 	background-image:url(../images/idx_cnt_fig01_bk_m.png);
-	margin:0px;
-	padding:0px;
+/* 	height: 251px; */
+	height: 265px !important;
+	width: 100%;
 }
 
 #idx-cont_fig01 .idx-bkBtm{
@@ -140,7 +141,7 @@ fonts
 
 #idx-cont_fig01 .idx-figCont{
 	position:absolute;
-	width:279px;
+/* 	width:279px; */
 	left:0px;
 }
 
@@ -151,6 +152,7 @@ fonts
 	position:absolute;
 	top:1266px;
 	left:0px;
+	height: auto !important;
 }
 
 #idx-cont_fig02 .idx-bkTop{
@@ -159,6 +161,7 @@ fonts
 
 #idx-cont_fig02 .idx-bkMid{
 	background-image:url(../images/idx_cnt_fig02_bk_m.png);
+	height: 53px !important;/*added for correction*/
 }
 
 #idx-cont_fig02 .idx-bkBtm{
@@ -166,7 +169,7 @@ fonts
 
 #idx-cont_fig02 .idx-figCont{
 	position:absolute;
-	width:453px;
+/* 	width:453px; */
 	left:0px;
 }
 
@@ -177,6 +180,7 @@ fonts
 	position:absolute;
 	top:1900px;
 	left:580px;
+	height: auto !important;
 }
 
 #idx-cont_fig03 .idx-bkTop{
@@ -185,6 +189,7 @@ fonts
 
 #idx-cont_fig03 .idx-bkMid{
 	background-image:url(../images/idx_cnt_fig03_bk_m.png);
+	height: 161px !important /*added for correction*/
 }
 
 #idx-cont_fig03 .idx-bkBtm{
@@ -192,7 +197,7 @@ fonts
 
 #idx-cont_fig03 .idx-figCont{
 	position:absolute;
-	width:333px;
+/* 	width:333px; */
 	left:0px;
 }
 
@@ -203,6 +208,7 @@ fonts
 	position:absolute;
 	top:2300px;
 	left:10px;
+	height: auto !important;
 }
 
 #idx-cont_fig04 .idx-figCont{
@@ -226,6 +232,10 @@ fonts
 
 #idx-cont_fig04 .idx-bkMid{
 	background-image:url(../images/idx_cnt_fig04_bk_m.png);
+	margin: 0px;
+	padding: 0px;
+/* 	height:145px; */
+    height: 143px !important /*added for correction*/
 }
 
 #idx-cont_fig04 .idx-bkBtm{
@@ -233,7 +243,7 @@ fonts
 
 #idx-cont_fig04 .idx-figCont{
 	position:absolute;
-	width:485px;
+/* 	width:485px; */
 	left:0px;
 }
 
@@ -246,6 +256,7 @@ fonts
 	position:absolute;
 	top:3000px;
 	left:500px;
+	height: auto !important;
 }
 
 #idx-cont_fig05 .idx-bkTop{
@@ -254,6 +265,9 @@ fonts
 
 #idx-cont_fig05 .idx-bkMid{
 	background-image:url(../images/idx_cnt_fig05_bk_m.png);
+	margin:0px;
+    padding:0px;
+    height: 69px !important /*added for correction*/
 }
 
 #idx-cont_fig05 .idx-bkBtm{
