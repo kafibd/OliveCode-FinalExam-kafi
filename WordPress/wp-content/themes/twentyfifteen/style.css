@@ -5747,4 +5747,15 @@ p > video {
     .page-id-422 #wrapper-inner {
         top: 208px !important;
     }
-
+    .page-id-422 .sidebar {
+        display: none !important;
+    }
+ .page-id-422 .site-content {
+        margin-left: 0px;
+    }
+ .page-id-422 .entry-content, .entry-header {
+        padding: 0px;
+    }
+ .page-id-422 #post-422, .js {
+    margin: 0px !important;
+ }
