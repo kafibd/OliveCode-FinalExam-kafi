@@ -15,48 +15,6 @@
 	<script type="text/javascript" src="/caohagan/js/PIE.js"></script>
 	<script type="text/javascript" src="/caohagan/js/queryLoader.js"></script>
 </head>
-<!-- <script type="text/javascript"> -->
-<!-- 	$(document).ready(function(){ -->
-<!-- 		//this place is not accessible from image href=? -->
-<!-- 		//so the function is placed outside which means it is global now. -->
-<!-- 	}); -->
-<!-- 	var cntWrap = "<div id='cntWrap'></div>"; -->
-	
-<!-- 	function btmOpen(d, f){ -->
-<!-- 		$("body").append(cntWrap); -->
-<!--         //$("#cntWrap").css("opacity","0"); -->
-<!--         //$("#cntWrap").animate({"opacity":"1"},500); -->
-        
-        
-<!--         var baseAddr =  "http://www.caohagan.com/" + d; -->
-<!-- 		var targetUrl =  baseAddr + '/' + f; -->
-<!-- 		/*alert(targetUrl);*/ -->
-<!-- 		$.ajax({ -->
-<!-- 			   type: 'GET', -->
-<!-- 			   url: targetUrl, -->
-<!-- 			   dataType: 'html', -->
-<!-- 			   success: function(data) { -->
-<!-- 				   $('#cntWrap').append(data); -->
-<!--                    //this id is coming from imported html file -->
-<!--                    $('#btmWrap img').each(function(){ -->
-<!--                        var obj = $(this); -->
-<!--                        var prop = obj.attr('src'); -->
-<!-- 					   var path = prop.replace('images/',baseAddr+'/images/'); -->
-					   
-<!-- 					   $(obj).attr('src',path);//source path changes here -->
-<!--                    }); -->
-                   
-<!-- 				   $("#btmWrap").css("opacity","0"); -->
-<!--        			   $("#btmWrap").animate({"opacity":"1"},500); -->
-<!-- 				   //$('#lightbox').animate({"opacity":1},{duration:300}); -->
-<!--                  /*  addCustomScroll();*/ -->
-<!-- 			   }, -->
-<!-- 			   error:function() { -->
-<!-- 			   }, -->
-<!-- 		}) -->
-<!-- 	};	 -->
-<!-- </script> -->
-
 <body>
 	<div id="outer-cover">
 		<div id="centering-container">
