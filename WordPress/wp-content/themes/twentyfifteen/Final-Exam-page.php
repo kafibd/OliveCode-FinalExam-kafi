@@ -51,15 +51,16 @@ get_header(); ?>
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
-
-			// Include the page content template.
-			get_template_part( 'content', 'page' );
-
+// 				$my_id = 422;
+// 				$post_id_422 = get_post($my_id); 
+// 				echo $post_content = $post_id_422->post_content;
+				// Include the page content template.
+				get_template_part( 'content', 'page' );
 			// If comments are open or we have at least one comment, load up the comment template.
 			if ( comments_open() || get_comments_number() ) :
 				comments_template();
 			endif;
-
+// 			exit();
 		// End the loop.
 		endwhile;
 // 		?>

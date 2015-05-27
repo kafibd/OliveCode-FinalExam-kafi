@@ -308,7 +308,6 @@ function twentyfifteen_search_form_modify( $html ) {
 	return str_replace( 'class="search-submit"', 'class="search-submit screen-reader-text"', $html );
 }
 add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
-
 /**
  * Implement the Custom Header feature.
  *
